@@ -1,0 +1,61 @@
+import React from 'react';
+import {
+  PenTool,
+  FileText,
+  BookOpen,
+  RefreshCw,
+  CheckCircle,
+  FileMinus,
+  Mail,
+  Video,
+  Sparkles,
+  Share2,
+  Hash,
+  Briefcase,
+  GraduationCap,
+  HelpCircle,
+  Layers,
+  Globe,
+  Code,
+  Layout,
+  Braces,
+  AlignLeft,
+  Key,
+  UserCheck,
+  FileCheck,
+  Terminal,
+  Zap,
+} from 'lucide-react';
+
+const iconMap: Record<string, React.ElementType> = {
+  PenTool,
+  FileText,
+  BookOpen,
+  RefreshCw,
+  CheckCircle,
+  FileMinus,
+  Mail,
+  Video,
+  Sparkles,
+  Share2,
+  Hash,
+  Briefcase,
+  GraduationCap,
+  HelpCircle,
+  Layers,
+  Globe,
+  Code,
+  Layout,
+  Braces,
+  AlignLeft,
+  Key,
+  UserCheck,
+  FileCheck,
+  Terminal,
+  Zap,
+};
+
+export const ToolIcon: React.FC<{ name: string; className?: string }> = ({ name, className = 'w-5 h-5' }) => {
+  const IconComponent = iconMap[name] || Zap;
+  return <IconComponent className={className} />;
+};

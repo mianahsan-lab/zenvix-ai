@@ -1,0 +1,6 @@
+{
+  "name": "ZENVIX AI - All-in-One AI Workspace",
+  "description": "Production-ready AI tools platform featuring 24+ professional AI tools, user dashboard, credit system, subscriptions, and admin control.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

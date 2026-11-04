@@ -1,0 +1,147 @@
+{
+  "users": [
+    {
+      "id": "usr_admin_001",
+      "email": "admin@zenvix.ai",
+      "name": "Alex Vance (Admin)",
+      "passwordHash": "066a487bf981a9097ec28e450a2b88ee9cf4fc12a054f1d4c3445ef7d39fcb6806c8b141ef4cb8a252a2a2f8c04355070831a02a5aabcfa7847bc80751bf0cd2",
+      "salt": "d5fd7d196ca11402829633e9d516fd87",
+      "role": "admin",
+      "plan": "pro",
+      "credits": 99999,
+      "maxCredits": 99999,
+      "emailVerified": true,
+      "createdAt": "2026-10-05T06:06:58.646Z",
+      "lastLoginAt": "2026-11-04T06:06:58.646Z"
+    },
+    {
+      "id": "usr_demo_002",
+      "email": "user@zenvix.ai",
+      "name": "Sarah Connor",
+      "passwordHash": "4316ae500831fca58c3210fed0c9a242eba944b9bc27bd35f03ff244c7832d571370a701ee89923f3d932e21c189588e47a46902198b686b0b72996b6321018e",
+      "salt": "6a9bd76aca6a444615a8b7ebb9c1fd55",
+      "role": "user",
+      "plan": "free",
+      "credits": 45,
+      "maxCredits": 50,
+      "emailVerified": true,
+      "createdAt": "2026-10-30T06:06:58.653Z",
+      "lastLoginAt": "2026-11-04T06:07:07.273Z"
+    }
+  ],
+  "usageLogs": [
+    {
+      "id": "log_01",
+      "userId": "usr_demo_002",
+      "userEmail": "user@zenvix.ai",
+      "toolId": "ai-writer",
+      "toolName": "AI Writer",
+      "inputSnippet": "The future of quantum computing in everyday finance",
+      "creditsCharged": 1,
+      "createdAt": "2026-11-02T06:06:58.653Z",
+      "durationMs": 1420,
+      "status": "success"
+    },
+    {
+      "id": "log_02",
+      "userId": "usr_demo_002",
+      "userEmail": "user@zenvix.ai",
+      "toolId": "youtube-title",
+      "toolName": "YouTube Title Generator",
+      "inputSnippet": "Mechanical keyboards testing 10 switches for quiet typing",
+      "creditsCharged": 1,
+      "createdAt": "2026-11-03T06:06:58.653Z",
+      "durationMs": 1100,
+      "status": "success"
+    },
+    {
+      "id": "log_03",
+      "userId": "usr_admin_001",
+      "userEmail": "admin@zenvix.ai",
+      "toolId": "code-assistant",
+      "toolName": "AI Code Assistant",
+      "inputSnippet": "TypeScript debounce function with cancel method",
+      "creditsCharged": 1,
+      "createdAt": "2026-11-04T06:06:58.653Z",
+      "durationMs": 1650,
+      "status": "success"
+    }
+  ],
+  "savedResults": [
+    {
+      "id": "res_01",
+      "userId": "usr_demo_002",
+      "toolId": "ai-writer",
+      "toolName": "AI Writer",
+      "title": "Quantum Computing in Daily Banking",
+      "inputPayload": {
+        "topic": "Quantum Computing in Daily Banking",
+        "tone": "Professional & Authoritative"
+      },
+      "outputContent": "### The Quantum Leap in Everyday Finance\n\nQuantum algorithms are poised to transform cryptographic security, portfolio risk modeling, and real-time fraud mitigation across modern decentralized financial hubs...",
+      "createdAt": "2026-11-02T06:06:58.653Z",
+      "tags": [
+        "Finance",
+        "Tech"
+      ]
+    },
+    {
+      "id": "res_02",
+      "userId": "usr_demo_002",
+      "toolId": "youtube-title",
+      "toolName": "YouTube Title Generator",
+      "title": "Mechanical Keyboards Title Ideas",
+      "inputPayload": {
+        "topic": "Mechanical Keyboards Testing"
+      },
+      "outputContent": "1. I Tested 10 \"Silent\" Switches (Only 2 Actually Are!)\n2. Stop Buying Loud Keyboards: The 2026 Office Tier List\n3. The Ultimate Quiet Switch Guide for Developers",
+      "createdAt": "2026-11-03T06:06:58.653Z",
+      "tags": [
+        "YouTube",
+        "Gear"
+      ]
+    }
+  ],
+  "favorites": [
+    {
+      "id": "fav_01",
+      "userId": "usr_demo_002",
+      "toolId": "ai-writer",
+      "createdAt": "2026-11-04T06:06:58.653Z"
+    },
+    {
+      "id": "fav_02",
+      "userId": "usr_demo_002",
+      "toolId": "youtube-script",
+      "createdAt": "2026-11-04T06:06:58.653Z"
+    },
+    {
+      "id": "fav_03",
+      "userId": "usr_demo_002",
+      "toolId": "code-assistant",
+      "createdAt": "2026-11-04T06:06:58.653Z"
+    }
+  ],
+  "subscriptions": [
+    {
+      "id": "sub_01",
+      "userId": "usr_admin_001",
+      "plan": "pro",
+      "billingCycle": "yearly",
+      "amount": 190,
+      "status": "active",
+      "currentPeriodEnd": "2027-10-05T06:06:58.653Z",
+      "createdAt": "2026-10-05T06:06:58.653Z"
+    }
+  ],
+  "settings": {
+    "siteName": "ZENVIX AI",
+    "maintenanceMode": false,
+    "announcementBanner": "🚀 Welcome to ZENVIX AI v2.4 — 24+ AI Power Tools Now Available!",
+    "defaultFreeCredits": 50,
+    "proCreditsMonthly": 5000,
+    "proPriceMonthly": 19,
+    "proPriceYearly": 190,
+    "allowSignups": true
+  }
+}
